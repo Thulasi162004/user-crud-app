@@ -46,12 +46,13 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://user-crud-39jw67gsb-crud-app1.vercel.app",
+        "https://user-crud-app-woad.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 @app.get("/")

@@ -1,0 +1,23 @@
+{
+  "name": "user-crud-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://thulasi162004.github.io/user-crud-app/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}

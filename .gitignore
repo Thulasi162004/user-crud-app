@@ -1,0 +1,18 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/app/__pycache__/
+*.py[cod]
+
+# Secrets
+backend/.env
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

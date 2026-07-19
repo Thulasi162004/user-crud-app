@@ -32,7 +32,7 @@ Copy-Item .env.example .env
 uvicorn app.main:app --reload --port 8000
 ```
 
-API docs: http://localhost:8000/docs
+API docs: https://user-crud-app-y7ms.onrender.com
 
 ### 3. Run the frontend
 

@@ -41,18 +41,16 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+# ===========================
 # CORS Configuration
+# ===========================
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5173",
-        "https://user-crud-app-woad.vercel.app",
-    ],
-    allow_credentials=True,
+    allow_origins=["*"],          # Allow all origins (development)
+    allow_credentials=False,      # Must be False when allow_origins=["*"]
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 
 
 @app.get("/")
